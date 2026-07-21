@@ -1,4 +1,4 @@
-// EXP.2: Program on Classes, Objects, and Method Overloading
+// EXP.2: Programs on method oveerloading and constructor overloading
 // NAME: Aryan Khedekar
 // UIN: 251P107
 public class Calculation{
