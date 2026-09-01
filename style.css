@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+section {
+    padding: 50px;
+    min-height: 200px;
+}
+
+#home {
+    background-color: lightblue;
+}
+
+#about {
+    background-color: lightgray;
+}
+
+#skills {
+    background-color: lightyellow;
+}
+
+#projects {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightpink;
+}
+
+.project {
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 300px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#result {
+    font-weight: bold;
+}
