@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Color Change</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+
+<body id="page">
+
+    <h2>Automatic Background Color Changer</h2>
+    <p>The background color changes every 5 seconds.</p>
+    <div id="colorName" class="color-box"></div>
+
+    <script>
+        let colors = ["lightblue", "lightgreen", "lightpink", "yellow", "orange"];
+
+        let i = 0;
+
+        setInterval(function() {
+            document.getElementById("page").style.backgroundColor = colors[i];
+
+            i++;
+
+            if (i == colors.length) {
+                i = 0;
+            }
+        }, 5000);
+    </script>
+
+</body>
+</html>
